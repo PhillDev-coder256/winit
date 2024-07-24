@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>WEB INFO-NET INSTITUTE OF TECHNOLOGY</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <style>
+        .sticky-icon  {
+        z-index:10;
+        position:fixed;
+        top:60%;
+        transform: translateY(-50%);
+        right:0%;
+        width:210px;
+        display:flex;
+        flex-direction:column;}  
+        .sticky-icon a  {
+            transform:translate(160px,0px);
+            border-radius:50px 0px 0px 50px;
+            text-align:left;
+            margin:4px;
+            text-decoration:none;
+            text-transform:uppercase;
+            padding:7px;
+            font-size:17px;
+            font-family:'Oswald', sans-serif;
+            transition:all 0.8s;}
+        .sticky-icon a:hover  {
+            color:#FFF;
+            transform:translate(0px,0px);}	
+        .sticky-icon a:hover i  {
+            transform:rotate(360deg);}
+        /*.search_icon a:hover i  {
+            transform:rotate(360deg);}*/
+        .Facebook  {
+            background-color:#2C80D3;
+            color:#FFF;}
+            
+        .Youtube  {
+            background-color:#fa0910;
+            color:#FFF;}
+            
+        .Twitter  {
+            background-color:#53c5ff;
+            color:#FFF;}
+            
+        .Instagram  {
+            background-color:#996f6f;
+            color:#FFF;}
+            
+        .Google  {
+            background-color:#d34836;
+            color:#FFF;}						
+        .sticky-icon a i {
+            background-color:#FFF;
+            height:30px;
+            width:30px;
+            color:#000;
+            text-align:center;
+            line-height:30px;
+            border-radius:50%;
+            margin-right:20px;
+            transition:all 0.5s;}
+        .sticky-icon a i.fa-facebook-f  {
+            background-color:#FFF;
+            color:#2C80D3;}
+            
+        .sticky-icon a i.fa-google-plus-g  {
+            background-color:#FFF;
+            color:#d34836;}
+            
+        .sticky-icon a i.fa-instagram  {
+            background-color:#FFF;
+            color:#FD1D1D;}
+            
+        .sticky-icon a i.fa-youtube  {
+            background-color:#FFF;
+            color:#fa0910;}
+            
+        .sticky-icon a i.fa-twitter  {
+            background-color:#FFF;
+            color:#53c5ff;}
+        .fas fa-shopping-cart  {
+            background-color:#FFF;}	
+        #myBtn {
+            height:50px;
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        text-align:center;
+        padding:10px;
+        text-align:center;
+            line-height:40px;
+        border: none;
+        outline: none;
+        background-color: #1e88e5;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        }
+        .fa-arrow-circle-up  {
+            font-size:30px;}
+
+        #myBtn:hover {
+        background-color: #555;
+        }			
+    </style>
+    
+</head>
+
+<body>
+
+<!--Start Sticky Icon--> 
+<div class="sticky-icon">
+    <a href="https://www.instagram.com/?hl=en" class="Instagram"><i class="fab fa-instagram"></i> Instagram </a>
+    <a href="https://www.facebook.com/" class="Facebook"><i class="fab fa-facebook-f"> </i> Facebook </a>
+    <a href="https://aboutme.google.com/u/0/?referer=gplus" class="Google"><i class="fab fa-google-plus-g"> </i> Google + </a>
+    <a href="https://www.youtube.com/" class="Youtube"><i class="fab fa-youtube"></i> Youtube </a>
+    <a href="https://twitter.com/login" class="Twitter"><i class="fab fa-twitter"> </i> Twitter </a>   
+</div>
+<!--End Sticky Icon-->
+    <!-- Topbar Start -->
+<div class="container-fluid bg-warning d-none d-lg-block">
+    <div class="row align-items-center py-2 px-xl-5">
+        <div class="col-lg-6">
+            <div class="d-inline-flex align-items-center">
+                <i class="fa fa-envelope text-dark mr-2"></i>
+                <small class="text-dark">info@winit.ac.ug</small>
+                <i class="fa fa-phone text-dark ml-4 mr-2"></i>
+                <small class="text-dark">(+256) 782 860 259</small>
+            </div>
+        </div>
+        <div class="col-lg-6 text-right">
+            <div class="d-inline-flex align-items-center">
+                <a class="text-dark px-2" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-dark px-2" href=""><i class="fab fa-twitter"></i></a>
+                <a class="text-dark px-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-dark px-2" href=""><i class="fab fa-instagram"></i></a>
+                <a class="text-dark px-2" href=""><i class="fab fa-tiktok"></i></a>
+                <a class="text-dark px-2" href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+<!-- Navbar Start -->
+<div class="container-fluid bg-primary">
+    <div class="row border-top px-xl-5">
+        <div class="col-lg-12">
+            <nav style="" class="navbar navbar-expand-lg bg-primary navbar-light py-3 py-lg-0 px-0">
+                <button style="" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div style="" class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                    <div style="width: 100%; align-items: center; text-align: center;" class="navbar-nav justify-content-between ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link text-light">Home</a>
+                        <a href="about.html" class="nav-item nav-link text-light">About Us</a>
+                        <a href="blog.html" class="nav-item nav-link text-light">Blog</a>
+                        <a href="contact.html" class="nav-item nav-link text-light">Contact</a>
+                        <a href="course.html" class="nav-item nav-link text-light">Programmes</a>
+                        <a href="research.html" class="nav-item nav-link text-light">Research</a>
+                        <a style="padding: 10px; width: 150px; height: 150px; border-radius: 50%; border: 4px solid yellow;" href="index.html" class="nav-item nav-link text-light">
+                            <img style="width: 100%; height: 100%; border-radius: 50%;" src="img/logo3.png" alt="WINIT LOGO" class="img-fluid">
+                        </a>
+                        <a href="teacher.html" class="nav-item nav-link text-light">Tutors</a>
+                        <a href="outreach.html" class="nav-item nav-link text-light">Community Outreach</a>
+                        <a href="contacts.html" class="nav-item nav-link text-light">Contacts</a>
+                        <a href="quick-links.html" class="nav-item nav-link text-light">Quick Links</a>
+                        <a href="elearning.html" class="nav-item nav-link text-light">Elearning</a>
+                        <a href="timetables.html" class="nav-item nav-link text-light">Timetables</a>
+                        <a href="timetables.html" class="nav-item nav-link text-light"><i class="fa fa-search"></i></a>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row pb-3">
+                        <div class="col-lg-6 mb-4">
+                            <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <a class="blog-overlay text-decoration-none" href="single.html">
+                                    <h5 class="text-white mb-3">The Future of Web Design: Trends to Watch</h5>
+                                    <p class="text-warning m-0">Jul 20, 2024</p>
+                                    <p class="text-white">Explore the latest trends in web design and how they can transform your digital presence.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                                <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                                <a class="blog-overlay text-decoration-none" href="single.html">
+                                    <h5 class="text-white mb-3">Innovative App Development Techniques in 2024</h5>
+                                    <p class="text-warning m-0">Jul 18, 2024</p>
+                                    <p class="text-white">Learn about cutting-edge app development techniques that are changing the industry.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                                <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                                <a class="blog-overlay text-decoration-none" href="single.html">
+                                    <h5 class="text-white mb-3">Effective Marketing Strategies for 2024</h5>
+                                    <p class="text-warning m-0">Jul 15, 2024</p>
+                                    <p class="text-white">Discover effective marketing strategies that can help boost your business in 2024.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <a class="blog-overlay text-decoration-none" href="single.html">
+                                    <h5 class="text-white mb-3">Harnessing the Power of SEO in the Modern Age</h5>
+                                    <p class="text-warning m-0">Jul 10, 2024</p>
+                                    <p class="text-white">Understand the latest SEO techniques to improve your website’s visibility.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                                <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                                <a class="blog-overlay text-decoration-none" href="single.html">
+                                    <h5 class="text-white mb-3">Top Content Marketing Strategies for 2024</h5>
+                                    <p class="text-warning m-0">Jul 05, 2024</p>
+                                    <p class="text-white">Learn how to create compelling content that engages and converts your audience.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                                <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                                <a class="blog-overlay text-decoration-none" href="single.html">
+                                    <h5 class="text-white mb-3">The Impact of Social Media on Modern Marketing</h5>
+                                    <p class="text-warning m-0">Jul 01, 2024</p>
+                                    <p class="text-white">Explore how social media platforms are shaping marketing strategies today.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination pagination-lg justify-content-center mb-0">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <!-- Author Bio -->
+                    <div class="d-flex flex-column text-center bg-dark rounded mb-5 py-5 px-4">
+                        <img src="img/phil7.png" class="img-fluid rounded-circle mx-auto mb-3" style="width: 100px;">
+                        <h3 class="text-warning mb-3">Phillip Ssempeebwa</h3>
+                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Tag Cloud</h3>
+                        <p class="text-white m-0">Phillip Ssempeebwa is a seasoned web developer and digital marketer with over a decade of experience in the field. He shares his insights and expertise on the latest trends and techniques in the industry.</p>
+                    </div>
+    
+                    <!-- Search Form -->
+                    <div class="mb-5">
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control form-control-lg" placeholder="Keyword">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-transparent text-warning"><i class="fa fa-search"></i></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+    
+                    <!-- Category List -->
+                    <div class="mb-5">
+                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Categories</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <a href="" class="text-decoration-none h6 m-0">Web Design</a>
+                                <span class="badge badge-warning badge-pill">150</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <a href="" class="text-decoration-none h6 m-0">Web Development</a>
+                                <span class="badge badge-warning badge-pill">131</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <a href="" class="text-decoration-none h6 m-0">Online Marketing</a>
+                                <span class="badge badge-warning badge-pill">78</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <a href="" class="text-decoration-none h6 m-0">Keyword Research</a>
+                                <span class="badge badge-warning badge-pill">56</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <a href="" class="text-decoration-none h6 m-0">Email Marketing</a>
+                                <span class="badge badge-warning badge-pill">98</span>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Recent Post -->
+                    <div class="mb-5">
+                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Recent Post</h3>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="blog-post-1.html">
+                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">Exploring the Future of Web Design</h6>
+                                <small>Jul 20, 2024</small>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="blog-post-2.html">
+                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">Innovative App Development Techniques</h6>
+                                <small>Jul 18, 2024</small>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="blog-post-3.html">
+                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">Effective Marketing Strategies for 2024</h6>
+                                <small>Jul 15, 2024</small>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="blog-post-4.html">
+                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">Harnessing the Power of SEO</h6>
+                                <small>Jul 10, 2024</small>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none" href="blog-post-5.html">
+                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">Top Content Marketing Strategies</h6>
+                                <small>Jul 05, 2024</small>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <!-- Tag Cloud -->
+                    <div class="mb-5">
+                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Tag Cloud</h3>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-outline-warning m-1">Design</a>
+                            <a href="" class="btn btn-outline-warning m-1">Development</a>
+                            <a href="" class="btn btn-outline-warning m-1">Marketing</a>
+                            <a href="" class="btn btn-outline-warning m-1">SEO</a>
+                            <a href="" class="btn btn-outline-warning m-1">Writing</a>
+                            <a href="" class="btn btn-outline-warning m-1">Consulting</a>
+                            <a href="" class="btn btn-outline-warning m-1">Strategy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Blog End -->
+
+
+    <!-- Footer Start -->
+    <div style="background-color: #1e88e5"  class="container-fluid text-white py-5 px-sm-3 px-lg-5" style="margin-top: 40px;">
+        <div  class="row pt-5">
+            <div class="col-lg-7 col-md-12">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h3 class="text-warning mb-4" style="letter-spacing: 1px;">Get In Touch</h3>
+                        <p><i style="color: yellow;"  class="fa fa-map-marker-alt mr-2"></i>HAM Towers, Kampala, Uganda</p>
+                        <p><i style="color: yellow;"  class="fa fa-phone-alt mr-2"></i>+256 123 456 789</p>
+                        <p><i style="color: yellow;"  class="fa fa-envelope mr-2"></i>info@winit.com</p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i style="color: yellow;"  class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i style="color: yellow;"  class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i style="color: yellow;"  class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-square" href="#"><i style="color: yellow;"  class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="text-warning mb-4" style="letter-spacing: 1px;">Our Courses</h3>
+                        
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2" href="#"><i style="color: yellow;" class="fa fa-angle-right mr-2"></i>Web Design</a>
+                            <a class="text-white mb-2" href="#"><i style="color: yellow;"  class="fa fa-angle-right mr-2"></i>Data Science</a>
+                            <a class="text-white mb-2" href="#"><i style="color: yellow;"  class="fa fa-angle-right mr-2"></i>Marketing</a>
+                            <a class="text-white mb-2" href="#"><i style="color: yellow;"  class="fa fa-angle-right mr-2"></i>Software Development</a>
+                            <a class="text-white" href="#"><i style="color: yellow;"  class="fa fa-angle-right mr-2"></i>Cyber Security</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 mb-5">
+                <h3 class="text-warning mb-4" style="letter-spacing: 1px;">Our Newsletter</h3>
+                
+                <p>Subscribe to our newsletter to stay updated on the latest courses, events, and promotions at the Web Info-Net Institute Of Technology. Be the first to know about new opportunities to enhance your skills and knowledge.</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+                        <div class="input-group-append">
+                            <button style="background-color: yellow;"  class="text-primary btn px-4">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">&copy; <a href="#">Web Info-Net Institute Of Technology</a>. All Rights Reserved.</a>
+                </p>
+            </div>
+            <div class="col-lg-6 text-center text-md-right">
+                <ul class="nav d-inline-flex">
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Terms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
